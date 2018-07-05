@@ -66,3 +66,10 @@ def getProperty(String propertyName, String envName) {
         throw new RuntimeException(message)
     }
 }
+
+dependencies {
+    implementation "com.android.support:appcompat-v7:$support_library_version"
+
+    implementation project(':easypermissions')
+}
+
